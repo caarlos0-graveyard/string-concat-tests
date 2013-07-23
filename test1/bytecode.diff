@@ -1,0 +1,32 @@
+1,3c1,3
+< Compiled from "Test.java"
+< public class Test {
+<   public Test();
+---
+> Compiled from "Test2.java"
+> public class Test2 {
+>   public Test2();
+22,33c22,31
+<       20: invokespecial #8                  // Method java/lang/StringBuilder."<init>":()V
+<       23: aload_1       
+<       24: invokevirtual #9                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+<       27: aload_2       
+<       28: invokevirtual #9                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+<       31: aload_3       
+<       32: invokevirtual #9                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+<       35: aload         4
+<       37: invokevirtual #9                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+<       40: invokevirtual #10                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+<       43: invokevirtual #11                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+<       46: return        
+---
+>       20: aload_1       
+>       21: invokespecial #8                  // Method java/lang/StringBuilder."<init>":(Ljava/lang/String;)V
+>       24: aload_2       
+>       25: invokevirtual #9                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+>       28: aload_3       
+>       29: invokevirtual #9                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+>       32: aload         4
+>       34: invokevirtual #9                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+>       37: invokevirtual #10                 // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+>       40: return        
