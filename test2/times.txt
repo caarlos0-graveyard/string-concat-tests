@@ -1,3 +1,8 @@
-java Test  0,34s user 0,16s system 104% cpu 0,486 total
-java Test2  0,08s user 0,01s system 54% cpu 0,163 total
 
+real	0m0.453s
+user	0m0.340s
+sys	0m0.148s
+
+real	0m0.072s
+user	0m0.076s
+sys	0m0.000s
