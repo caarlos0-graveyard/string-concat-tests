@@ -29,3 +29,11 @@ $ javap -version
 $ uname -a
 Linux carlosbecker-carlosbecker 3.9.5-301.fc19.x86_64 #1 SMP Tue Jun 11 19:39:38 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
 ```
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
