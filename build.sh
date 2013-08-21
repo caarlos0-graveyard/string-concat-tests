@@ -13,7 +13,7 @@ for test in $(ls -d test*); do
   # removing old results
   rm -rf *.class *.bytecode *.diff times.txt
 
-  for clazz in Test Test2; do
+  for clazz in Test Test2 Test3; do
     # compile
     javac "${clazz}.java"
     # decompile
