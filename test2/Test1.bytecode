@@ -1,6 +1,6 @@
-Compiled from "Test.java"
-public class Test {
-  public Test();
+Compiled from "Test1.java"
+public class Test1 {
+  public Test1();
     Code:
        0: aload_0       
        1: invokespecial #1                  // Method java/lang/Object."<init>":()V

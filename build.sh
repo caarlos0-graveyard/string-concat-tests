@@ -13,17 +13,17 @@ for test in $(ls -d test*); do
   # removing old results
   rm -rf *.class *.bytecode *.diff times.txt
 
-  for clazz in Test Test2 Test3; do
+  for clazz in $(ls *.java); do
     # compile
-    javac "${clazz}.java"
+    javac "${clazz}"
+    # extract filename
+    clazz="${clazz%.*}"
     # decompile
     javap -c ${clazz} > ${clazz}.bytecode
     # exec and log the time
+    echo "${clazz}" >> times.txt
     (time java ${clazz}) > /dev/null 2>> times.txt
+    echo -e "\n\n" >> times.txt
   done
-
-  # diff the bytecodes
-  diff Test.bytecode Test2.bytecode > bytecode.diff &
-
   cd ..
 done
