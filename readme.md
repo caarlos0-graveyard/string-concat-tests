@@ -23,6 +23,7 @@ java version "1.7.0_25"
 Java(TM) SE Runtime Environment (build 1.7.0_25-b15)
 Java HotSpot(TM) 64-Bit Server VM (build 23.25-b01, mixed mode)
 
+
 $ javac -version
 javac 1.7.0_25
 
@@ -30,6 +31,5 @@ $ javap -version
 1.7.0_25
 
 $ uname -a
-Linux carlosbecker 3.8.0-26-generic #38-Ubuntu SMP Mon Jun 17 21:43:33 UTC 2013
-x86_64 x86_64 x86_64 GNU/Linux
+Linux carlosbecker-carlosbecker 3.9.5-301.fc19.x86_64 #1 SMP Tue Jun 11 19:39:38 UTC 2013 x86_64 x86_64 x86_64 GNU/Linux
 ```

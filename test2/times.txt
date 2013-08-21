@@ -1,24 +1,24 @@
 Test1
 
-real	0m0.490s
-user	0m0.320s
-sys	0m0.229s
+real	0m0.167s
+user	0m0.161s
+sys	0m0.041s
 
 
 
 Test2
 
-real	0m0.063s
-user	0m0.060s
-sys	0m0.007s
+real	0m0.064s
+user	0m0.051s
+sys	0m0.004s
 
 
 
 Test3
 
-real	0m0.079s
-user	0m0.072s
-sys	0m0.007s
+real	0m0.091s
+user	0m0.076s
+sys	0m0.017s
 
 
 
