@@ -1,13 +1,9 @@
 # string-concat-tests
 
-- `Test.java` and `Test2.java`: two implementations of the same code;
-- `Test.class` and `Test2.class`: previous explained examples compiled with
-`javac` withou any params;
-- `Test.bytecode` and `Test2.bytecode`: bytecode of the previous example,
-decompiled with `javap -c`;
-- `bytecode.diff`: diffs between the bytecode files;
-- `times.txt`: times of the execution of the two programs (with `time java Test`
-and `time java Test2`).
+- `TestX.java`: implementations of the same code;
+- `TestX.class`: examples compiled with `javac` with no extra params;
+- `TestX.bytecode`: the bytecodes of the previous example, decompiled with `javap -c`;
+- `times.txt`: times of the execution of the the programs (with `time java TestX`).
 
 > **HEADS UP**: You can test it in your machine by running the `build.sh` script.
 
